@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mobile-env"
+version = "0.1.0"
+description = "for aws mobile testing env, appium."
+authors = ["John Park <johnpark@johnssonslab.info>"]
+readme = "README.md"
+packages = [{include = "mobile_env"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^7.2.2"
+appium-python-client = "^2.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
